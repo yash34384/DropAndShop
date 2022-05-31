@@ -1,0 +1,27 @@
+.book-card {
+  padding: 1rem;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 1rem;
+  background-color: #55748a;
+  margin: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.book-card > div {
+  text-align: center;
+}
+.book-card > button {
+  background-color: red;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 0.8rem;
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+  border: none;
+}

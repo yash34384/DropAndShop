@@ -1,0 +1,9 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  cursor: default;
+}
+body {
+  margin: 0;
+  padding: 0;
+}

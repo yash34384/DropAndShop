@@ -1,0 +1,75 @@
+.navbar {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 0;
+  flex-wrap: wrap;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+}
+.logo-div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #313f49;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo {
+  height: 90%;
+}
+.options {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.options > a {
+  text-decoration: none;
+  color: #808080;
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: all 0.3s linear;
+}
+.icon {
+  color: grey;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.options > a:hover {
+  color: #313f49;
+}
+.icon:hover {
+  color: #313f49;
+}
+
+/* top arrow  */
+.top {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  font-size: 3rem;
+  color: #313f49;
+  cursor: pointer;
+}
+.speedDial {
+  position: fixed;
+  right: 3vmax;
+  top: 1.6vmax;
+}
+.speedDialIcon {
+  width: 5.6rem;
+  height: 5.6rem;
+  border-radius: 100%;
+}

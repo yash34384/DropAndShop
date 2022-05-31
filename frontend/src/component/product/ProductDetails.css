@@ -1,0 +1,53 @@
+.productDetails {
+  width: 100%;
+  height: 100vh;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(to bottom right, white, #313f49);
+}
+.carousel-div {
+  width: 36rem;
+  height: 80%;
+}
+.carousel {
+  width: 100%;
+  height: 100%;
+}
+.CarouselImage {
+  height: 90%;
+  width: 90%;
+}
+.side-div {
+  width: 36rem;
+  height: 80%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.NameOfBook {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.Author {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.Price {
+  font-size: 3rem;
+}
+.Description {
+  font-size: 1.6rem;
+}
+.Recommended {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.uploadBy {
+  font-size: 2rem;
+}

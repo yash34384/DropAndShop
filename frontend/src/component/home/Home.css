@@ -1,0 +1,75 @@
+.poster {
+  width: 100%;
+  height: 62rem;
+}
+
+/* features */
+.feature {
+  width: 100%;
+  height: 200vh;
+  background-color: #eaebec;
+}
+.feature-title {
+  font-size: 3.8rem;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 8rem;
+}
+.container {
+  width: 100%;
+  height: 90%;
+  padding: 5rem 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.productCard {
+  margin: 2rem;
+  width: 35rem;
+  height: 50rem;
+  background-color: white;
+  border: 1px solid grey;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  border-radius: 2px;
+}
+.productCard > img {
+  width: 100%;
+  height: 50%;
+}
+.productCard > div {
+  margin-top: 1rem;
+  margin-left: 1.4rem;
+  color: grey;
+}
+.author,
+.price {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name {
+  font-size: 2.8rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+.description {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* media query */
+@media screen and (max-width: 789px) {
+  .feature {
+    height: 350vh;
+  }
+}
